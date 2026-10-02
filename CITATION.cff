@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these datasets, please cite them as below."
+title: "Whoami Internet Research: hosting, DNS, email and phishing statistics"
+type: dataset
+authors:
+  - name: "Whoami Internet Research (whoami.xj1.fr)"
+url: "https://whoami.xj1.fr/research/"
+repository-code: "https://github.com/xavfmp/whoami-internet-research"
+license: CC-BY-4.0
+abstract: "Open datasets and methodology from Whoami Internet Research: hosting, DNS, email infrastructure and phishing statistics derived from 90M+ domains."
+keywords:
+  - web hosting
+  - DNS
+  - email security
+  - DMARC
+  - phishing
+  - internet measurement
+date-released: "2026-10-02"
