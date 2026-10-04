@@ -23,6 +23,7 @@ Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, e
 | [`data/mail-providers.csv`](data/mail-providers.csv) | Email provider market share, top 100K websites | [/mail/](https://whoami.xj1.fr/mail/) |
 | [`data/email-security.csv`](data/email-security.csv) | DMARC and SPF adoption, top 100K websites | [/email-security/](https://whoami.xj1.fr/email-security/) |
 | [`data/ipv6-dnssec.csv`](data/ipv6-dnssec.csv) | IPv6 and DNSSEC adoption, top 100K websites | [/ipv6-dnssec/](https://whoami.xj1.fr/ipv6-dnssec/) |
+| [`data/technologies.csv`](data/technologies.csv) | Website technologies (platform, server, CDN, framework, security headers), top 100K websites | [/technologies/](https://whoami.xj1.fr/technologies/) |
 | [`data/phishing-by-tld.csv`](data/phishing-by-tld.csv) | Domains listed in public phishing blocklists, per extension | [/phishing/](https://whoami.xj1.fr/phishing/) |
 
 CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `sample_size` (the base the percentages are computed on), `provider`, `domains`, `share_percent`. Field definitions per file are in [`docs/methodology.md`](docs/methodology.md).
@@ -38,6 +39,7 @@ CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `s
 | `data/mail-providers.csv` | 2026-10-03 | 446 |
 | `data/email-security.csv` | 2026-10-03 | 32 |
 | `data/ipv6-dnssec.csv` | (next refresh) | — |
+| `data/technologies.csv` | (next refresh) | — |
 | `data/phishing-by-tld.csv` | 2026-10-04 | 60 |
 <!-- SNAPSHOT:END -->
 
