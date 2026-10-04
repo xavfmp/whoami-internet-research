@@ -29,4 +29,4 @@ Canonical version: <https://whoami.xj1.fr/research/>. Data: <https://whoami.xj1.
 
 ## Limits
 
-See the README and <https://whoami.xj1.fr/research/#hosting>: CDN attribution, domains rather than traffic, missing .com/.net zones, popularity-list drift, phishing listings not verified by Whoami.
+See the README and <https://whoami.xj1.fr/research/#hosting>: CDN attribution, domains rather than traffic, incomplete .com/.net coverage (no public zone file: Certificate Transparency only, since 2026-10-03), popularity-list drift, phishing listings not verified by Whoami.

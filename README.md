@@ -43,7 +43,7 @@ CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `s
 
 - **Hosted by** = the company whose network announces the IP a name resolves to. Behind a CDN (Cloudflare, Fastly, Akamai…), that is the CDN, not the origin server.
 - Counts are **domains, not sites or traffic**: parked and dormant domains count in the extension segments. Popularity segments are closer to real use.
-- Extensions whose zone is not public (.com and .net are not yet included) are only seen through Certificate Transparency.
+- The full zone files of .com and .net are not available to us: since 3 October 2026 these two extensions are fed only from Certificate Transparency logs (domains that obtained a certificate), so they are incomplete and under-represented, as is any extension whose zone is not public. Names found this way are recorded from the day the collection started, not back-dated.
 - Popularity lists change over time: a share can move because the list moved.
 - Phishing figures are **what public blocklists say**, not verified by us, and reflect an extension's size as much as its abuse handling.
 
