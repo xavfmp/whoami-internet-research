@@ -31,12 +31,12 @@ CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `s
 
 | File | `snapshot_date` | Rows |
 |---|---|---|
-| `data/hosting-segments.csv` | 2026-10-02 | 13,819 |
-| `data/hosting-countries.csv` | 2026-10-02 | 1,025 |
-| `data/dns-providers.csv` | 2026-10-01 | 1,253 |
-| `data/mail-providers.csv` | 2026-10-01 | 443 |
-| `data/email-security.csv` | 2026-10-01 | 32 |
-| `data/phishing-by-tld.csv` | 2026-10-02 | 60 |
+| `data/hosting-segments.csv` | 2026-10-03 | 13,871 |
+| `data/hosting-countries.csv` | 2026-10-03 | 1,025 |
+| `data/dns-providers.csv` | 2026-10-03 | 1,254 |
+| `data/mail-providers.csv` | 2026-10-03 | 446 |
+| `data/email-security.csv` | 2026-10-03 | 32 |
+| `data/phishing-by-tld.csv` | 2026-10-04 | 60 |
 <!-- SNAPSHOT:END -->
 
 ## Main limits
