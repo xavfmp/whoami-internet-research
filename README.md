@@ -1,6 +1,6 @@
 # whoami-internet-research
 
-Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, email infrastructure and phishing statistics derived from 90M+ domains.
+Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, email infrastructure and phishing statistics derived from 110M+ domains.
 
 > **Canonical source and latest datasets: https://whoami.xj1.fr/research/**
 > This repository is a transparent, versioned mirror. The live page always has the most recent figures.
@@ -33,14 +33,14 @@ CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `s
 
 | File | `snapshot_date` | Rows |
 |---|---|---|
-| `data/hosting-segments.csv` | 2026-10-03 | 13,871 |
-| `data/hosting-countries.csv` | 2026-10-03 | 1,025 |
+| `data/hosting-segments.csv` | 2026-10-05 | 13,897 |
+| `data/hosting-countries.csv` | 2026-10-05 | 1,025 |
 | `data/dns-providers.csv` | 2026-10-03 | 1,254 |
 | `data/mail-providers.csv` | 2026-10-03 | 446 |
 | `data/email-security.csv` | 2026-10-03 | 32 |
-| `data/ipv6-dnssec.csv` | (next refresh) | — |
-| `data/technologies.csv` | (next refresh) | — |
-| `data/phishing-by-tld.csv` | 2026-10-04 | 60 |
+| `data/ipv6-dnssec.csv` | 2026-10-03 | 31 |
+| `data/technologies.csv` | 2026-10-04 | 25,037 |
+| `data/phishing-by-tld.csv` | 2026-10-05 | 60 |
 <!-- SNAPSHOT:END -->
 
 ## Main limits
