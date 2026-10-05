@@ -9,7 +9,7 @@ Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, e
 
 [whoami.xj1.fr](https://whoami.xj1.fr/) resolves tens of millions of domain names and records, for each one, the addresses it points to, the network and company that host it, its DNS and email providers, and its email security records (DMARC, SPF). The barometers built on it answer questions like *who hosts the web?*, *who runs the world's DNS and email?* and *how many popular sites protect their domain against spoofing?*
 
-- **Domains analysed:** 90M+ (zone files, popularity lists, Certificate Transparency)
+- **Domains analysed:** 110M+ (zone files, popularity lists, Certificate Transparency)
 - **Sources:** ICANN CZDS, AFNIC (.fr), Internetstiftelsen (.se, .nu), Estonian Internet Foundation (.ee), [Tranco](https://tranco-list.eu/) top 1M, [Chrome UX Report](https://developer.chrome.com/docs/crux) by country, Certificate Transparency logs, public phishing blocklists; network ownership from GeoLite2 (MaxMind)
 - **Aggregates only.** No zone file and no per-domain record is published here.
 
