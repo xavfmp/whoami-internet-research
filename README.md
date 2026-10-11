@@ -1,6 +1,6 @@
 # whoami-internet-research
 
-Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, email infrastructure and phishing statistics derived from 110M+ domains.
+Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, email infrastructure and phishing statistics derived from 165M+ domains.
 
 > **Canonical source and latest datasets: https://whoami.xj1.fr/research/**
 > This repository is a transparent, versioned mirror. The live page always has the most recent figures.
@@ -9,7 +9,7 @@ Open datasets and methodology from **Whoami Internet Research**: hosting, DNS, e
 
 [whoami.xj1.fr](https://whoami.xj1.fr/) resolves tens of millions of domain names and records, for each one, the addresses it points to, the network and company that host it, its DNS and email providers, and its email security records (DMARC, SPF). The barometers built on it answer questions like *who hosts the web?*, *who runs the world's DNS and email?* and *how many popular sites protect their domain against spoofing?*
 
-- **Domains analysed:** 110M+ (zone files, popularity lists, Certificate Transparency)
+- **Domains analysed:** 165M+ (zone files, popularity lists, Certificate Transparency)
 - **Sources:** ICANN CZDS, AFNIC (.fr), Internetstiftelsen (.se, .nu), Estonian Internet Foundation (.ee), [Tranco](https://tranco-list.eu/) top 1M, [Chrome UX Report](https://developer.chrome.com/docs/crux) by country, Certificate Transparency logs, public phishing blocklists; network ownership from GeoLite2 (MaxMind)
 - **Aggregates only.** No zone file and no per-domain record is published here.
 
@@ -33,14 +33,14 @@ CSV, UTF-8, comma separated, one header row. Common columns: `snapshot_date`, `s
 
 | File | `snapshot_date` | Rows |
 |---|---|---|
-| `data/hosting-segments.csv` | 2026-10-05 | 13,897 |
-| `data/hosting-countries.csv` | 2026-10-05 | 1,025 |
-| `data/dns-providers.csv` | 2026-10-03 | 1,254 |
-| `data/mail-providers.csv` | 2026-10-03 | 446 |
-| `data/email-security.csv` | 2026-10-03 | 32 |
-| `data/ipv6-dnssec.csv` | 2026-10-03 | 31 |
-| `data/technologies.csv` | 2026-10-04 | 25,037 |
-| `data/phishing-by-tld.csv` | 2026-10-05 | 60 |
+| `data/hosting-segments.csv` | 2026-10-10 | 14,053 |
+| `data/hosting-countries.csv` | 2026-10-10 | 1,025 |
+| `data/dns-providers.csv` | 2026-10-10 | 1,230 |
+| `data/mail-providers.csv` | 2026-10-10 | 439 |
+| `data/email-security.csv` | 2026-10-10 | 32 |
+| `data/ipv6-dnssec.csv` | 2026-10-10 | 31 |
+| `data/technologies.csv` | 2026-10-09 | 25,563 |
+| `data/phishing-by-tld.csv` | 2026-10-10 | 60 |
 <!-- SNAPSHOT:END -->
 
 ## Main limits

@@ -7,7 +7,7 @@ authors:
 url: "https://whoami.xj1.fr/research/"
 repository-code: "https://github.com/xavfmp/whoami-internet-research"
 license: CC-BY-4.0
-abstract: "Open datasets and methodology from Whoami Internet Research: hosting, DNS, email infrastructure and phishing statistics derived from 110M+ domains."
+abstract: "Open datasets and methodology from Whoami Internet Research: hosting, DNS, email infrastructure and phishing statistics derived from 165M+ domains."
 keywords:
   - web hosting
   - DNS
@@ -15,4 +15,4 @@ keywords:
   - DMARC
   - phishing
   - internet measurement
-date-released: "2026-10-05"
+date-released: "2026-10-10"
